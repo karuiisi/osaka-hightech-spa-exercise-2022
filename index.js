@@ -1,17 +1,3 @@
-const EventHandling = {
-  data() {
-    return {
-      message: 'Hello Vue.js!'
-    }
-  },
-  methods: {
-    reverseMessage() {
-      this.message = this.message
-        .split('')
-        .reverse()
-        .join('')
-    }
-  }
-}
+const RootComponent = {};
 
-Vue.createApp(EventHandling).mount('#event-handling')
+Vue.createApp(RootComponent).mount('#app');
